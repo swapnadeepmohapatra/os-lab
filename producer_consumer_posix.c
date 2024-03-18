@@ -1,6 +1,7 @@
 // Write a menu driven program to implement producer consumer problem using Semaphore.
 
 #include <stdio.h>
+#include <semaphore.h>
 
 int mutex = 1, full = 0, empty = 3, x = 0;
 
